@@ -201,7 +201,7 @@ public class Estacionamento {
 		Integer saidaHora = carro.getVaga().getSaida().getHour();
 		Integer saidaMinut = carro.getVaga().getSaida().getMinute();
 
-		Duration d = Duration.between(carro.getVaga().getSaida(), carro.getVaga().getEntrada());
+		Duration d = Duration.between(carro.getVaga().getEntrada(), carro.getVaga().getSaida());
 
 		if (entradaHora == saidaHora) {
 			return valorHora;

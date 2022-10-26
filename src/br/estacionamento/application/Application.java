@@ -18,7 +18,7 @@ public class Application {
 
 		// Limitar quantidade de vagas.
 
-		estacionamento = new Estacionamento(25);
+		estacionamento = new Estacionamento(50);
 		System.out.println("\nTotal de vagas: " + estacionamento.getVagasTotal());
 		String i = "";
 
